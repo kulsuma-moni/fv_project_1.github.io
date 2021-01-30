@@ -646,28 +646,44 @@
        margin-top: 60px;
      }
    .view_card img {
-     max-width: 18%;
-     position: absolute;
-     left: 8%;
-     top: 18%;
+	 width: 30%;
+	 margin: 0 auto;
+	 height: 20%;
+	 transition: .6s;
+	 -webkit-transition: .6s;
+	 -moz-transition: .6s;
+	 -ms-transition: .6s;
+	 -o-transition: .6s;
    }
    .view_card {
      border: 1px solid #191e5e;
      height: 150px;
      border-radius: 4%;
-     text-align: center;
+	 text-align: center;
+	 padding: 20px 30px;
+ }
+ .view_card:hover.view_card img{
+	transform: rotateY(-180deg);
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
+	-o-transform: rotateY(-180deg);
+
+}
+ .view_card .card_ctn{
+	margin-top: 10px;
  }
  
- .view_card h5 {
-   padding: 42px 0 0 0;
+ .view_card a {
    color: #fff;
    text-transform: capitalize;
    font-size: 20px;
    line-height: 1.4;
-   margin-left: 10%;
    font-weight: 400;
+   text-decoration: none;
+   cursor: pointer;
  }
-   .view_card .btn {
+   /* .view_card .btn {
      color: #fff;
      border: 1px solid #fff;
      font-size: 12px;
@@ -684,7 +700,7 @@
    .view_card .btn:hover {
      border: 1px solid transparent;
      background: #07706D;
-   }
+   } */
    .view_card_area .best_it {
      background: #05716c;
    }
@@ -753,14 +769,14 @@
  }
  .tablinks.active {
    background: #2c3e79;
-   -webkit-transition: 3s;
-   -o-transition: 3s;
-   transition: 3s;
+   transition:.6s;
    border-radius: 50%;
    -webkit-box-shadow: 1px 0px 24px 0px #48484f;
    box-shadow: 1px 0px 24px 0px #48484f;
-   -moz-transition: 3s;
-   -ms-transition: 3s;
+   -webkit-transition:.6s;
+   -moz-transition:.6s;
+   -ms-transition:.6s;
+   -o-transition:.6s;
 }
  .tablinks.active p{
    color: #fff;
