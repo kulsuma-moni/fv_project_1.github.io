@@ -1,0 +1,564 @@
+@media (min-width: 1200px) and (max-width: 1299.98px){
+
+  .hx {
+    right: 0;
+    width: 100%;
+  }
+  .hexagon_shape img {
+    left: 0%;
+    top: -5%;
+}
+.btn_bg {
+  bottom: 0%;
+  left: 3%;
+}
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+  .main_menu ul li {
+    margin: 0 10px;
+  }
+  .hero_area {
+    height: 100vh;
+  }
+  .hexagon_shape img {
+    top: -6%;
+}
+.courses_area ul li {
+  width: 31.6%;
+}
+.tablinks.active {
+  background: #2c3e79;
+  transition: 3s;
+  border-radius: 0%;
+}
+.frame {
+  width: 100%;
+}
+.blog_txt_ctn .blog_icon ul li {
+  margin-right: 35px;
+}
+.hx {
+  right: 0px;
+  width: 100%;
+}
+.hexagon_shape img {
+  top: -6%;
+  left: 0;
+}
+.btn_bg{
+  left: 0;
+  bottom: 0;
+}
+.footer_shape {
+  top: -70px;
+}
+.footer_area .gallery img {
+  max-width: 33%;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+  .mean-container a.meanmenu-reveal {
+    border: 1px solid #fff;
+    color: #fff;
+    right: 3% !important;
+    top: 7%;
+}
+      .mean-container .mean-nav {
+        background:#0e0c51e6;
+        margin-top:80px
+      }
+    .mean-container .mean-nav ul li a {
+      text-transform:capitalize;
+    }
+      .mean-container .mean-bar{
+        position: relative;
+        z-index: 9999999;
+        background:transparent;
+        height:0px;
+    }
+      .mean-container a.meanmenu-reveal span {
+        background: #fff none repeat scroll 0 0;
+      }
+      .main-nav ul li a i {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 600;
+        font-size: 18px;
+        color: #fff;
+      }
+      .section_titel h2 {
+        font-size: 40px;
+      }
+      .hero_area {
+        height: 60vh;
+      }
+      .shape .shape1 {
+        top: 10%;
+      }
+      .shape .shape4 {
+        right: 35%;
+        top: 44%;
+      }
+      .closecontainer {
+        position: absolute;
+        top: 12%;
+        right: 4%;
+        z-index: 9;
+      }
+    .footer_area .mail i {
+      position: absolute;
+      top: 65%;
+      left: 6%;
+    }
+    .footer_area ul li a span {
+      margin: 0px 0 0 16px;
+    }
+      .overlay {
+        top: 0%;
+        left: 7%;
+      }
+      .overlay .closebtn {
+        top: -20%;
+        left: 91%;
+        color: #3087e3;
+      }
+      .overlay-content {
+        top: -15%;
+      }
+      .overlay input[type=text] {
+        color: #320bec;
+      }
+      .overlay button {
+        right: -62%;
+        top: -38px;
+      }
+      .hero_titel {
+        transform: translateY(103%);
+        text-align: center;
+        width: 700px;
+        -webkit-transform: translateY(103%);
+        -moz-transform: translateY(103%);
+        -ms-transform: translateY(103%);
+        -o-transform: translateY(103%);
+    }
+      .hero_titel h1 {
+        font-size: 40px;
+      }
+      .hero_titel p {
+        font-size: 20px;
+      }
+      .hero_sliding_ctn img {
+        display: none;
+      }
+      .about_text {
+        top: 10%;
+      }
+      .about_area .about_text h2 {
+        font-size: 30px;
+      }
+      .about_area .about_text p {
+        font-size: 14px;
+      }
+      .hx {
+        right: 0;
+      }
+      .hexagon_shape img {
+        left: 0%;
+        top: -12%;
+    }
+      .btn_bg {
+        height: 150px;
+        width: 146px;
+        bottom: 0;
+        left: 0%;
+      }
+      .video-btn {
+        top: 30%;
+        left: 28%;
+        }
+        .view_card h5 {
+          font-size: 14px;
+        }
+        .view_card img {
+          top: 25%;
+        }
+        .view_card .btn {
+          font-size: 10px;
+        }
+        .courses_area ul li {
+          width: 48.6%;
+        }
+         .frame {
+          width: 100%;
+        }
+        .blog_txt_ctn .blog_icon ul li {
+          margin-right: 0px;
+        }
+        .blog_txt_ctn .blog_txt h4 {
+          font-size: 14px;
+        }
+        .footer_shape {
+          top: -55px;
+        }
+        .footer_area .gallery img {
+          max-width: 33%;
+        }
+        .footer_area ul li address {
+          margin: 15px 0 0 20px;
+        }
+        .footer_area ul li .location i {
+          top: 41%;
+        }
+        .footer_area ul li a {
+          font-size: 14px;
+        }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+  .logo_area {
+    max-width: 35%;
+  }
+  .social {
+    top: 22%;
+  }
+  .hero_area {
+    height: 60vh;
+  }
+  .mean-container a.meanmenu-reveal {
+    border: 1px solid #fff;
+    color: #fff;
+    right: 3% !important;
+    top: 7%;
+}
+.mean-container .mean-nav {
+  background:#0e0c51e6;
+  margin-top:80px
+ }
+ 
+    .mean-container .mean-nav ul li a {
+      text-transform:capitalize;
+    }
+       
+      .mean-container a.meanmenu-reveal span {
+        background: #fff none repeat scroll 0 0;
+      }
+      .mean-container .mean-bar{
+        position: relative;
+        z-index: 9999999;
+        background:transparent;
+        height:0px;
+    }
+  .menu-shrink{
+    display: none;
+  }
+  .hero_titel {
+    top: 6%;
+    transform: translateY(157%);
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    width: 90%;
+    -webkit-transform: translateY(157%);
+    -moz-transform: translateY(157%);
+    -ms-transform: translateY(157%);
+    -o-transform: translateY(157%);
+}
+  .hero_titel h1 {
+    font-size: 30px;
+  }
+  .hero_titel p {
+    font-size: 18px;
+  }
+  .section_titel h2 {
+    font-size: 30px;
+  }
+  .overlay {
+    width: 100%;
+    top: 1%;
+    right: 0%;
+  }
+  .overlay .closebtn {
+    right: -80%;
+  }
+  .overlay-content {
+    top: 20%;
+  }
+  .overlay button {
+    right: 79px;
+    top: 10px;
+  }
+  .hero_sliding_ctn img {
+    display: none;
+  }
+  .view_card {
+    margin-bottom: 30px;
+}
+  .about_text {
+    position: relative;
+    top: 0;
+    margin-bottom: 50px;
+  }
+  .about_area .about_text h2 {
+  font-size: 24px;
+}
+.about_area .about_text p {
+  font-size: 14px;
+}
+.about_video {
+  text-align: center;
+  margin-top: 50px;
+}
+.hx {
+  right: 0px;
+  max-width: 76%;
+  left: 0;
+  margin: auto;
+}
+.btn_bg {
+  bottom: 0;
+}
+.video-btn {
+  left: 0%;
+  }
+  .about_area .btn {
+    padding: 8px 30px;
+    font-size: 12px;
+  }
+  .tab {
+    margin-bottom: 60px;
+  }
+  .tab ul li img {
+    max-width: 35%;
+  }
+  .tablinks.active {
+    border-radius: 70px;
+  }
+
+   .frame {
+    width: 100%;
+  }
+  .blog_ctn:hover img {
+    width: 100%;
+  }
+  .recent_update_area .re_sh1 {
+    bottom: 0;
+    max-width: 50%;
+  }
+  .recent_update_area .re_sh2 {
+    max-width: 50%;
+  }
+  .zoomin img {
+    width: 100%;
+  }
+  .blog_ctn.sm_blog {
+    margin-top: 40px;
+    margin-left: 17%;
+    width: 400px;
+  }
+  .blog_txt_ctn .blog_txt h4 {
+    font-size: 14px;
+  }
+  .all_cbtn {
+    text-align: center;
+  }
+  .section_titel {
+    text-align: center;
+  }
+  .idea_txt {
+    left: 12%;
+  }
+  .idea_area .idea_txt h3 {
+    font-size: 32px;
+  }
+  .idea_area .idea_txt p {
+    font-size: 14px;
+  }
+  .idea_area .idea_btn a {
+    padding: 12px 20px;
+    font-size: 12px;
+  }
+  .footer_area ul li .location i {
+    top: 33%;
+  }
+  .footer_shape {
+    top: -36px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575.98px){
+  .logo_area {
+    max-width: 35%;
+  }
+  .social {
+    top: 22%;
+  }
+  .mean-container .mean-bar{
+    position: relative;
+    z-index: 9999999;
+    background:transparent;
+    height:0px;
+}
+  .hero_area {
+    height: 50vh;
+  }
+  .mean-container a.meanmenu-reveal {
+    border: 1px solid #fff;
+    color: #fff;
+    right:  8% !important;
+}
+.mean-container .mean-bar {
+  top: 1%;
+}
+.mean-container .mean-nav {
+  background:#0e0c51e6;
+  margin-top: 33px;
+ }
+  .mean-container a.meanmenu-reveal span {
+    background: #fff none repeat scroll 0 0;
+  }
+  .menu-shrink{
+    display: none;
+  }
+  .overlay {
+    width: 100%;
+    top: 20%;
+    left: 0;
+  }
+  .overlay .closebtn {
+    top: 0%;
+    right: -85%;
+  }
+  .overlay-content {
+    top: -9%;
+  }
+  .overlay input[type=text] {
+    color: #4f19e3;
+  }
+  .overlay button {
+    right: -62%;
+    top: -36px;
+  }
+  .hero_titel {
+    top: 6%;
+    transform: translateY(82%);
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    width: 90%;
+    -webkit-transform: translateY(82%);
+    -moz-transform: translateY(82%);
+    -ms-transform: translateY(82%);
+    -o-transform: translateY(82%);
+}
+  .hero_titel h1 {
+    font-size: 26px;
+  }
+  .hero_titel p {
+    font-size: 12px;
+  }
+  .section_titel h2 {
+    font-size: 30px;
+  }
+  .hero_sliding_ctn img {
+    display: none;
+  }
+  .view_card {
+    margin-bottom: 30px;
+}
+  .about_text {
+    position: relative;
+    top: 0;
+    margin-bottom: 40px;
+  }
+  .about_area .about_text h2 {
+  font-size: 24px;
+}
+.about_area .about_text p {
+  font-size: 14px;
+}
+.about_video {
+  text-align: center;
+  margin-top: 50px;
+}
+.hx {
+  right: 0px;
+  max-width: 76%;
+  left: 0;
+  margin: auto;
+}
+.btn_bg {
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+  background: linear-gradient(to bottom right,#06044a,#405d92);
+  height: 126px;
+  width: 122px;
+  bottom: 0%;
+  left: 0%;
+}
+.video-btn {
+  left: 0%;
+  }
+  .courses_area ul li {
+    width: 32.0%;
+  }
+  .about_area .btn {
+    padding: 8px 30px;
+    font-size: 12px;
+  }
+  .tab {
+    margin-bottom: 60px;
+  }
+  .tab ul li img {
+    max-width: 46%;
+  }
+  .tablinks.active {
+    border-radius: 0px;
+  }
+
+   .frame {
+    width: 100%;
+  }
+  .blog_ctn {
+    margin-bottom: 40px;
+}
+  .blog_txt_ctn .blog_icon ul li {
+    margin-right: 18px;
+  }
+  .blog_ctn:hover img {
+    width: 100%;
+  }
+  .blog_txt_ctn .blog_txt h4 {
+    font-size: 14px;
+  }
+  .all_cbtn {
+    text-align: center;
+  }
+  .all_cbtn .ac_btn {
+    font-size: 16px;
+  }
+  .section_titel {
+    text-align: center;
+  }
+  .idea_txt {
+    left: 12%;
+  }
+  .idea_area .idea_txt h3 {
+    font-size: 18px;
+    width: 100%;
+  }
+  .idea_area .idea_txt p {
+    font-size: 12px;
+  }
+  .idea_area .idea_btn {
+    right: 30%;
+    top: 52%;
+  }
+  .idea_area .idea_btn a {
+    padding: 12px 20px;
+    font-size: 12px;
+  }
+  .footer_area ul li .location i {
+    top: 33%;
+  }
+  .footer_shape {
+    top: -26px;
+  }
+}

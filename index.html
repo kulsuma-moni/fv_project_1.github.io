@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/image/titel_icon/logo.ico">
+    <title>Code Brand</title>
+
+    <!--=== Bootstrap ===-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+        <!--=== Fontawesome icon ===-->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/font/flaticon.css">
+    <link rel="stylesheet" href="assets/css/plugin/meanmenu.min.css">
+    <!--=== wow animation ===-->
+    <link rel="stylesheet" href="assets/css/plugin/animate.css">
+    <!-- Basic Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- SOCIAL MEDIA AREA START-->
+        <div class="social">
+            <ul>
+                <li class="facebook"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Join our facebook group."><img src="assets/image/social/facebook.svg" alt="fb"></a></li>
+                <li class="twitter"><a href="#"><img src="assets/image/social/twitter.svg" alt="twitter"></a></li>
+                <li class="linkedin"><a href="#"><img src="assets/image/social/linkedin.svg" alt="linkedin"></a></li>
+                <li class="instagram"><a href="#"><img src="assets/image/social/instagram.svg" alt="instagram"></a></li>
+            </ul>
+        </div>
+    <!-- SOCIAL MEDIA AREA END-->
+    <!-- HEADER AREA START -->
+    <header>
+        <!-- MENU AREA START -->
+<!-- Main Menu -->
+        <div class="main_menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="logo_area" id="home">
+                            <a href="#"><img src="assets/image/logo/logo_1.png" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#home" class="active">home</a></li>
+                                <li><a href="#">about <i class="far fa-angle-down"></i></a>
+                                    <ul class="sub_menu">
+                                        <li><a href="#">about us</a></li>
+                                        <li><a href="#">our team</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">courses <i class="far fa-angle-down"></i></a>
+                                    <ul class="sub_menu">
+                                        <li><a href="#">online courses</a></li>
+                                        <li><a href="#">offline courses</a></li>
+                                    </ul>        
+                                </li>
+                                <li><a href="#">admission <i class="far fa-angle-down"></i></a>
+                                    <ul class="sub_menu">
+                                        <li><a href="#">admission from</a></li>
+                                        <li><a href="#">admission procedure</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">blog</a></li>
+                                <li><a href="#">contact</a></li>
+                                <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Click here for login or register."><i class="flaticon-user"></i></a></li>
+                                <li>
+                                    <a class="btn openBtn" onclick="openSearch()" data-toggle="tooltip" data-placement="bottom" title="click here for search."><i class="fas fa-search"></i></a>
+                                    <div id="myOverlay" class="overlay">
+                                        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                                        <div class="overlay-content">
+                                          <form action="/action_page.php">
+                                            <input type="text" placeholder="Search.." name="search">
+                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                          </form>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MENU AREA END -->
+    </header>
+    <!-- HEADER AREA END -->
+    <MAIN>
+    <!-- HERO AREA START -->
+    <section>
+        <div class="hero_area">
+            <div class="shape">
+                <img class="shape1" src="assets/image/shapes/sq.png" alt="shape">
+                <img class="shape4" src="assets/image/shapes/sq.png" alt="shape">
+            </div>
+            <div class="waveWrapper waveAnimation">
+                <div class="waveWrapperInner bgTop">
+                  <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+                </div>
+                <div class="waveWrapperInner bgMiddle">
+                  <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+                </div>
+                <div class="waveWrapperInner bgBottom">
+                  <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="hero_titel">
+                                <h1 class=" wow fadeInLeft">welcome to code brand</h1>
+                                <p class=" wow fadeInLeft">Accelerating The Broadband Revolution</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="hero_sliding_ctn wow slideInRight">
+                                <img src="assets/image/herobg/heroctn.png" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HERO AREA END -->
+    <!-- ABOUT AREA START -->
+    <section>
+        <div class="about_area section_padding" data-background="assets/image/shapes/sq3.png" id="about">
+            <div class="container">
+                <div class="section_titel text-center">
+                    <h2 class=" wow fadeInUp">about us</h2>
+                    <img class=" wow fadeInDown" src="assets/image/section/sectionbd.png" alt="border">
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about_text">
+                            <h2 class="wow slideInLeft">lets introduce with us</h2>
+                            <p class="wow slideInLeft"><strong>Code Brand</strong> is an IT solution provider that is strived to provide high quality, cost effective
+                                and sustainable IT solution to satisfy its clients.where people come to launch their ideas, build professional
+                                websites, attract customers and manage their work . Our main strength is to maintain a very large customer base with full satisfaction....</P>  
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about_video  wow slideInRight">
+                            <img class="hx" src="assets/image/about/heroctn.png" alt="about">
+                          <div class="btn_bg">
+                            <a href="#" target="_blank" class="video-btn redbg">
+                                <i class="fas fa-play" data-toggle="tooltip" data-placement="bottom" title="play video"></i>
+                                <span class="ripple redbg"></span>
+                                <span class="ripple redbg"></span>
+                                <span class="ripple redbg"></span>
+                             </a>
+                          </div>
+                          <div class="hexagon_shape">
+                              <img src="assets/image/about/042-hexagon.png" alt="hexagon">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- VIEW CARD AREA START -->
+            <div class="view_card_area" id="faciliti">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="view_card best_it wow fadeInLeft">
+                                <img src="assets/image/facility/gold-medal.svg" alt="best">
+                                <h5>best it institute</h5>
+                                <a href="#" class="btn">view details</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="view_card skil_tr wow fadeInup">
+                                <img src="assets/image/facility/047-presentation.png" alt="skill">
+                                <h5>skilled trainers</h5>
+                                <a href="#" class="btn">view detailes</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="view_card inte_ren wow flipInDown">
+                                <img src="assets/image/facility/internship.svg" alt="job">
+                                <h5>internship facility</h5>
+                                <a href="#" class="btn">view detailes</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="view_card job_plc wow fadeInRight">
+                                <img src="assets/image/facility/046-work.png" alt="job">
+                                <h5>job placement</h5>
+                                <a href="#" class="btn">view detailes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- VIEW CARD END -->
+        </div>
+    </section>
+    <!-- ABOUT AREA END -->
+    <!-- COURSES AREA START -->
+    <section>
+         <div class="courses_area section_padding" data-background="assets/image/courses/coursesbg2.png" id="courses">
+            <div class="container">
+                <div class="section_titel text-center">
+                    <h2 class=" wow fadeInUp">our courses</h2>
+                    <img class=" wow fadeInDown" src="assets/image/section/sectionbd.png" alt="border">
+                </div>
+                <div class="row m-0">
+                    <div class="col-lg-4 col-md-4 col-sm-12 m-md-auto px-0">
+                        <div class="tab">
+                            <ul>
+                                <li class="tablinks active" onclick="openCourse(event, 'tb_1')" id="defaultOpen"><img src="assets/image/courses/web.svg" alt="web"><p>web design</p></li>
+                                <li class="tablinks" onclick="openCourse(event, 'tb_2')"><img src="assets/image/courses/graphic.png" alt="graphic"><p>graphic</p></li>
+                                <li class="tablinks" onclick="openCourse(event, 'tb_3')"><img src="assets/image/courses/icons8-sports-mode-96.png" alt="motion"><p>motion graphic</p></li>
+                                <li class="tablinks" onclick="openCourse(event, 'tb_4')"><img src="assets/image/courses/iot.png" alt="iot"><p>IOT</p></li>
+                                <li class="tablinks" onclick="openCourse(event, 'tb_5')"><img src="assets/image/courses/ux.png" alt="ui/ux"><p>UI/UX</p></li>
+                                <li class="tablinks" onclick="openCourse(event, 'tb_6')"><img src="assets/image/courses/animation.png" alt=""><p>animation</p></li>
+                                <li class="tablinks" onclick="openCourse(event, 'tb_7')"><img src="assets/image/courses/041-copywriting.png" alt="web"><p>content writing</p></li>
+                                <li class="tablinks" onclick="openCourse(event, 'tb_8')"><img src="assets/image/courses/icons8-marketing-64-Copy.png" alt="web"><p>digital marketing</p></li>
+                                <li class="tablinks" onclick="openCourse(event, 'tb_9')"><img src="assets/image/courses/apps.svg" alt="web"><p>apps development</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 m-auto px-sm-0">
+                        <div class="tab_ctn" id="tb_1">                         
+                            <div class="tabcontent">
+                                <div class="tb_right">
+                                    <img src="assets/image/courses/web.jpg" alt="web">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab_ctn" id="tb_2">                         
+                            <div class="tabcontent">
+                                <div class="tb_right">
+                                    <img src="assets/image/courses/graphic.jpg" alt="graphic">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab_ctn" id="tb_3">                         
+                            <div class="tabcontent">
+                                <div class="tb_right">
+                                    <img src="assets/image/courses/motion.jpg" alt="motion">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab_ctn" id="tb_4">                         
+                            <div class="tabcontent">
+                                <div class="tb_right">
+                                    <img src="assets/image/courses/digital.jpg" alt="digital">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab_ctn" id="tb_5">                         
+                            <div class="tabcontent">
+                                <div class="tb_right">
+                                    <img src="assets/image/courses/content.jpg" alt="blog">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab_ctn" id="tb_6">                         
+                            <div class="tabcontent">
+                                <div class="tb_right">
+                                    <img src="assets/image/courses/autocad.jpg" alt="autocad">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab_ctn" id="tb_7">                         
+                            <div class="tabcontent">
+                                <div class="tb_right">
+                                    <img src="assets/image/courses/web.jpg" alt="web">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab_ctn" id="tb_8">                         
+                            <div class="tabcontent">
+                                <div class="tb_right">
+                                    <img src="assets/image/courses/autocad.jpg" alt="autocad">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab_ctn" id="tb_9">                         
+                            <div class="tabcontent">
+                                <div class="tb_right">
+                                    <img src="assets/image/courses/web.jpg" alt="web">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="all_cbtn text-center">
+                    <a href="#" class="ac_btn">view all courses</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- COURSES AREA END -->
+    <!-- BLOG AREA START -->
+    <section>
+        <div class="blog_area section_padding" id="blog">
+            <div class="container">
+                <div class="section_titel text-center">
+                    <h2 class=" wow fadeInUp">latest blog</h2>
+                    <img class=" wow fadeInDown" src="assets/image/section/sectionbd.png" alt="border">
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="blog_ctn wow fadeInLeft">
+                            <div class="blog_img zoomin frame">
+                                <img src="assets/image/blog/blog1.jpg" alt="image">
+                            </div>
+                            <div class="blog_txt_ctn">
+                                <div class="blog_icon">
+                                    <ul>
+                                        <li><i class="fas fa-user-tag"></i><span>tahura</span></li>
+                                        <li><i class="far fa-comments"></i><span>25</span></li>
+                                        <li><i class="far fa-eye"></i><span>50</span></li>
+                                    </ul>
+                                </div>
+                                <div class="blog_txt">
+                                    <a href="#"><h4>why "keyword" is necessary for content writing?</h4></a>
+                                </div>
+                                <div class="blog_btn">
+                                    <a href="#">read more <i class="fal fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="blog_ctn wow fadeInUp">
+                            <div class="blog_img zoomin frame">
+                                <img src="assets/image/blog/blog2.jpg" alt="image">
+                            </div>
+                            <div class="blog_txt_ctn">
+                                <div class="blog_icon">
+                                    <ul>
+                                        <li><i class="fas fa-user-tag"></i><span>fardin</span></li>
+                                        <li><i class="far fa-comments"></i><span>25</span></li>
+                                        <li><i class="far fa-eye"></i><span>50</span></li>
+                                    </ul>
+                                </div>
+                                <div class="blog_txt">
+                                    <a href="#"><h4>why "keyword" is necessary for content writing?</h4></a>
+                                </div>
+                                <div class="blog_btn">
+                                    <a href="#">read more <i class="fal fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="blog_ctn sm_blog wow fadeInRight">
+                            <div class="blog_img zoomin frame">
+                                <img src="assets/image/blog/blog3.jpg" alt="image">
+                            </div>
+                            <div class="blog_txt_ctn">
+                                <div class="blog_icon">
+                                    <ul>
+                                        <li><i class="fas fa-user-tag"></i><span>jack</span></li>
+                                        <li><i class="far fa-comments"></i><span>25</span></li>
+                                        <li><i class="far fa-eye"></i><span>50</span></li>
+                                    </ul>
+                                </div>
+                                <div class="blog_txt">
+                                    <a href="#"><h4>why website is mandatory for a business?</h4></a>
+                                </div>
+                                <div class="blog_btn">
+                                    <a href="#">read more <i class="fal fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BLOG AREA END -->
+    <!-- IDEA SHEARING AREA START -->
+    <section>
+        <div class="idea_area section_padding_2">
+            <div class="container">
+                <div class="idea_ctn">
+                    <div class="idea_txt">
+                        <h3 class="wow fadeInLeft">any idea on your mind?</h3>
+                        <p class="wow fadeInUp">fell free to contact with us.</p>
+                    </div>
+                    <div class="idea_btn wow fadeInRight">
+                        <a href="#"><i class="far fa-envelope"></i> give a mail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- IDEA SHEARING AREA END -->
+    </MAIN>
+    <!-- FOOTER AREA START -->
+    <section class="footer_area section_padding">
+        <div class="footer_shape">
+            <img src="assets/image/footer/shap2.png" alt="image">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="contact">
+                        <h4 class="wow fadeInleft">contact us</h4>
+                        <ul class="wow fadeInleft">
+                            <li><a href="#" class="location"><i class="far fa-map-marker-alt"></i> <address>Bonani shopping city(7th floor)<br>Bonani,Dhaka</address></a></li>
+                            <li><a href="#" class="mail"><i class="far fa-envelope"></i><span>code.brand@gmail.com</span></a></li>
+                            <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i><span>01221702725, 01221702728</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="blog wow fadeInUp">
+                        <a href="#"><h4>quick links</h4></a>
+                        <ul>
+                            <li><a href="#home">home</a></li>
+                            <li><a href="#courses">courses</a></li>
+                            <li><a href="#blog">blog</a></li>
+                            <li><a href="#">events</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="others wow fadeInUp">
+                        <h4>others</h4>
+                        <ul>
+                            <li><a href="#">help</a></li>
+                            <li><a href="#">fecilitis</a></li>
+                            <li><a href="#">team</a></li>
+                            <li><a href="#">contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="gallery wow fadeInRight">
+                        <a href="#"><h4>instragram</h4></a>
+                        <div class="row">
+                            <img src="assets/image/footer/map4.png" alt="image">
+                            <img src="assets/image/footer/map5.png" alt="image">
+                            <img src="assets/image/footer/map6.png" alt="image">
+                        </div>
+                        <div class="row">
+                            <img src="assets/image/footer/map7.png" alt="image">
+                            <img src="assets/image/footer/map8.png" alt="image">
+                            <img src="assets/image/footer/map9.png" alt="image">
+                        </div>
+                    </div>
+                    <a href="#">view more phots</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER AREA END -->
+    <!-- COPYRIGHT AREA START -->
+    <section>
+        <div class="copyright_area">
+            <div class="container">
+                <div class="copyright text-center">
+                    <p>&copy; All Right Reserved By <a href="#">Code Brand</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- COPYRIGHT AREA END -->
+    <!-- Scroll to Top button selector -->
+        <a class="to-top"><i class="fas fa-level-up-alt"></i></a>
+
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugin/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/plugin/wow.min.js"></script>
+    <script src="assets/js/plugin/jquery.toTop.min.js"></script>
+
+    <!--=== All Active ===-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>    
+
+
+
+
